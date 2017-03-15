@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="salesTaxes.MainWindowController">
+   <children>
+      <ChoiceBox fx:id="categoryChoice" layoutX="14.0" layoutY="62.0" prefWidth="150.0" AnchorPane.leftAnchor="25.0" AnchorPane.topAnchor="50.0" />
+      <ChoiceBox fx:id="stateChoice" layoutX="14.0" layoutY="238.0" prefWidth="150.0" AnchorPane.leftAnchor="25.0" AnchorPane.topAnchor="150.0" />
+      <ChoiceBox fx:id="productChoice" layoutX="25.0" layoutY="188.0" prefWidth="150.0" AnchorPane.leftAnchor="25.0" AnchorPane.topAnchor="100.0" />
+      <TextField fx:id="priceText" layoutX="326.0" layoutY="50.0" AnchorPane.leftAnchor="200.0" AnchorPane.topAnchor="50.0" />
+      <TextField fx:id="taxText" layoutX="326.0" layoutY="188.0" AnchorPane.leftAnchor="200.0" AnchorPane.topAnchor="100.0" />
+      <TextField fx:id="resultText" layoutX="326.0" layoutY="325.0" AnchorPane.leftAnchor="200.0" AnchorPane.topAnchor="150.0" />
+   </children>
+</AnchorPane>
